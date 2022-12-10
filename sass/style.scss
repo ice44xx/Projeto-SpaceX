@@ -1,0 +1,303 @@
+@import "../sass/variables.scss";
+@import "../sass/pages/home.scss";
+@import "../sass/pages/falcon.scss";
+@import "../sass/pages/spaceflight.scss";
+
+::-webkit-scrollbar{
+  background-color: transparent;
+  color: white;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: white;
+}
+.btn-over{
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.btn-over:hover{
+  transition: all 0.5s;
+  background-color: white;
+  color: black;
+}
+
+
+
+@media (max-width: 1450px){
+  .containerOur-human{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.7)), url("/images/human-space/Our_Mission_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .imgOur{
+      display: none;
+    }
+  .containerOur-table{
+    background-color: transparent;
+    padding: 0px 30px 0 30px;
+    margin-left: 0;
+    width: 100%;
+    .title-space{
+      width: 100%;
+    }
+    table{
+      width: 100%;
+      td{
+        padding: 15px; 
+      }
+    }
+  }
+}
+.swiper {
+  height: 50vh;
+}
+}
+@media (max-width: 1200px){
+  nav ul{
+  justify-content: space-around;
+  gap: 20px;
+  .ul-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+  .ul-hidden,.shop{
+    display: none;
+  }
+}
+.container07{
+  .containerMerlin{
+    padding-left: 20px;
+  }
+}
+.containerGrid{
+  .container06{
+    .containerFalcon{
+      padding-left: 20px;
+    }
+  }
+}
+.overview{
+  padding-left: 20px;
+}
+}
+@media(max-width: 1000px){
+  .container-text{
+    .container-content{
+      margin: 0 0 0px 0px;
+    }
+  }
+}
+@media (max-width: 746px){
+  .container00{
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    #OverViewPosition{
+      padding-left: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: left;
+      color: white;
+    }
+    p{
+      max-width: 500px;
+      width: 100%;
+  
+    }
+    table{
+      color: white;
+      border-bottom: 1px solid $color-copy;
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 600px){
+  .container-text{
+    .container-content{
+      padding: 0 0 200px 5px;
+      p{
+        font-size: 20px;
+      }
+      span{
+        font-size: 40px;
+      }
+    }
+  }
+  .numberTitle{
+    font-size: 60px;
+  }
+  .numberSub{
+    font-size: 15px;
+  }
+  .containerGrid{
+    .container06{
+      .containerFalcon{
+        font-size: 16px;
+      }
+    }
+  }
+  .container-text-center{
+    font-size: 20px;
+    p span{
+      font-size: 100px;
+    }
+  }
+}
+@media (max-width: 590px){
+  .container00{
+    #OverViewPosition{
+      align-items: center;
+      padding: 15px;
+    }
+    p{
+      max-width: 500px;
+      width: 100%;
+  
+    }
+    table{
+      color: white;
+      border-bottom: 1px solid $color-copy;
+      max-width: 500px;
+      width: 100%;
+    }
+    &.carousel01{
+      background-image: none;
+      background-color: black;
+    }
+    &.carousel02{
+      background-image: none;
+      background-color: black;
+    }
+    &.carousel03{
+      background-image: none;
+      background-color: black;
+    }
+    &.carousel04{
+      background-image: none;
+      background-color: black;
+    }
+    &.carousel05{
+      background-image: none;
+      background-color: black;
+    }
+  }
+  .mobile-img{
+    display: flex;
+  }
+  .container07{
+    background-image: none;
+    background-color: black;
+  }
+}
+@media (max-width: 400px){
+  .container-text-center{
+    font-size: 20px;
+    p span{
+      font-size: 90px;
+    }
+  }
+  .overview{
+    padding-left: 0;
+  }
+  .container00{
+    #OverViewPosition{
+      .img-mobile-d{
+      }
+    p{
+      font-size: 12px;
+    }
+    table{
+      font-size: 12px;
+    }
+  }
+  }
+}
+@media (max-width: 362px){
+  nav ul{
+   img{
+    width: 180px;
+   }
+  }
+  .container-text{
+    .container-content{
+      padding: 0 0 200px 5px;
+      p{
+        font-size: 20px;
+      }
+      span{
+        font-size: 35px;
+      }
+    }
+  }
+  .numberTitle{
+    font-size: 40px;
+  }
+  .numberSub{
+    font-size: 15px;
+  }
+  .container-text-center{
+    font-size: 20px;
+    p span{
+      font-size: 70px;
+    }
+  }
+  .container07{
+    .containerMerlin{
+      .img-mobile-d{
+      }
+      table{
+        font-size: 13px;
+      }
+      .title{
+        font-size: 20px;
+      }
+      .sub{
+        font-size: 50px;
+      }
+    }
+  }
+  .container-box{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+
+    .btn2{
+      font-family: $font-family;
+      font-size: 14px;
+      border: 2px solid white;
+      color: white;
+      background-color: black;
+      padding: 10px;
+      transition: all 0.4s;
+    }
+    .btn2:hover{
+      transition: all 0.4s;
+      background-color: white;
+      color: black;
+    }
+  }
+}
+@media (max-width: 280px){
+  nav ul{
+    img{
+     width: 150px;
+    }
+  }
+   .container-text-center{
+    p span{
+      font-size: 60px;
+    }
+  }
+}
+

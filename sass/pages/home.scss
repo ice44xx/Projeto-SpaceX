@@ -1,0 +1,118 @@
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 18px;
+  list-style: none;
+  .logo{
+    max-width: 200px;
+  }
+  li{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    a{
+      color: white;
+    }
+    a:hover{
+      color: white;
+      border-bottom: 2px solid white;
+    }
+  }
+  i{
+    font-family: monospace;
+    align-items: right;
+    color: white;
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .shop{
+    margin-left: 50px;
+  }
+  .ul-mobile{
+    display: none;
+  }
+  
+}
+.container-text{
+  margin-left: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  .container-content{
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    margin: 0 0 150px 50px;
+    p{
+      font-size: 20px;
+    }
+    span{
+      font-size:50px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    div{
+      margin-top: -20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  }
+  .btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1rem;
+    position: relative;
+    padding: 18px 40px;
+    border: 2px solid white;
+    border-radius: 0;
+    color: white;
+    transition: all 0.4s;
+  }
+  .btn:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+  }
+}
+.container01,.container02,.container03,.container04{
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  .container-arrow img{
+    width: 100px;
+    margin-top: -100px;
+  }
+}
+.offcanvas-ul{
+  display: flex;
+  flex-direction: column;
+   li{
+    text-align: right;
+    border-bottom: 1px solid $color-copy;
+    padding-bottom: 15px;
+    text-decoration: none;
+    width: 100%;
+  }
+  a:hover{
+    color: $color-copy;
+    border: none;
+  }
+}
+footer{
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  min-height: 15vh;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  .item{
+    cursor: pointer;
+  }
+ 
+  span{
+    color: $color-copy;
+  }
+}
