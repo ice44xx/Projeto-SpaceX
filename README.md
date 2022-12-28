@@ -13,7 +13,7 @@ Layout FALCON9
 </div>
 
 <div>
-  <img src = "https://user-images.githubusercontent.com/112848324/209832689-7e1bfa64-5b13-41f1-a9e1-98aa86bd9685.gif"/>
+  <img src = "https://user-images.githubusercontent.com/112848324/209834408-5dda760d-288d-4a12-80f3-414527e0f4de.gif"/>
 </div>
 
 <div>
@@ -26,9 +26,6 @@ Layout HUMAN SPACEFLIGHT
   <img src = "https://user-images.githubusercontent.com/112848324/209832914-5a1f68b1-0ee9-4d55-94bf-1931e8d79203.png"/>
 </div>
 
-<div>
-  <img src = "https://user-images.githubusercontent.com/112848324/209832914-5a1f68b1-0ee9-4d55-94bf-1931e8d79203.png"/>
-</div>
 
 <div>
   <img src = "https://user-images.githubusercontent.com/112848324/209833146-005eea62-16e4-4e20-a5d6-129b69d231fe.png"/>
