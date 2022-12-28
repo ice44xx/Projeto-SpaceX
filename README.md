@@ -12,7 +12,7 @@ Layout FALCON9
   <img src = "https://user-images.githubusercontent.com/112848324/209831898-6462d667-2f96-471d-995b-b74ad5c4ecac.png"/>
 </div>
 
-<div display = "flex">
+<div align = "center">
   <img src = "https://user-images.githubusercontent.com/112848324/209834408-5dda760d-288d-4a12-80f3-414527e0f4de.gif"/>
   <img src = "https://user-images.githubusercontent.com/112848324/209832787-09aa0a41-a6cc-48ae-8218-2849ca16d560.png"/>
 </div>
